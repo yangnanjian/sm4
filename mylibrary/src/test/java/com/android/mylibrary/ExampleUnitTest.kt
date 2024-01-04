@@ -1,4 +1,4 @@
-package com.android.sm
+package com.android.mylibrary
 
 import org.junit.Test
 

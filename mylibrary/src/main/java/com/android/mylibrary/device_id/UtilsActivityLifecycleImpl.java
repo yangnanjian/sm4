@@ -1,4 +1,4 @@
-package com.android.sm.device_id;
+package com.android.mylibrary.device_id;
 
 import android.app.Activity;
 import android.app.Application;

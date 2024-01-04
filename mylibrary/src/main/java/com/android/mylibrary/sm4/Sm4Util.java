@@ -1,4 +1,4 @@
-package com.android.sm.sm4;
+package com.android.mylibrary.sm4;
 
 import android.util.Base64;
 import android.util.Log;
@@ -132,7 +132,7 @@ public class Sm4Util {
         return ret;
     }
 
-    private static String decryptData(String value, String key) {
+    public static String decryptData(String value, String key) {
         String decryptValue = "";
         byte[] decode = Base64.decode(value, Base64.DEFAULT);
         String s2 = ByteUtils.toHexString(decode);
